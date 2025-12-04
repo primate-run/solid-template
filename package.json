@@ -1,0 +1,22 @@
+{
+  "name": "@primate/app/solid",
+  "description": "Primate Solid template",
+  "type": "module",
+  "scripts": {
+    "start": "npx primate",
+    "build": "npx primate build",
+    "serve": "npx primate serve",
+    "test": "npx primate test",
+    "test:deno": "deno run -A npm:primate test",
+    "test:bun": "bun x --bun primate test"
+  },
+  "dependencies": {
+    "@primate/solid": "^0.7.1",
+    "@primate/sqlite": "^0.6.0",
+    "@rcompat/assert": "^0.3.1",
+    "babel-preset-solid": "^1.9.10",
+    "pema": "^0.4.0",
+    "primate": "^0.35.1",
+    "solid-js": "^1.9.10"
+  }
+}
