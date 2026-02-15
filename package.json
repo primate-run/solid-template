@@ -11,12 +11,12 @@
     "test:bun": "bun x --bun primate test"
   },
   "dependencies": {
-    "@primate/solid": "^0.7.1",
-    "@primate/sqlite": "^0.6.0",
-    "@rcompat/assert": "^0.3.1",
+    "@primate/solid": "^0.8.0",
+    "@primate/sqlite": "^0.7.0",
+    "@rcompat/assert": "^0.6.0",
     "babel-preset-solid": "^1.9.10",
-    "pema": "^0.4.0",
-    "primate": "^0.35.1",
+    "pema": "^0.5.0",
+    "primate": "^0.36.0",
     "solid-js": "^1.9.10"
   }
 }
